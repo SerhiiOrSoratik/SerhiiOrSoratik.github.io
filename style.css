@@ -45,7 +45,7 @@ header {
   right: 0;
   top: 0;
   padding: 5px;
-  background: #cacaf6;
+  background: rgba(202, 202, 247, 0.5);;
   color: #fff;
 }
 header h1 {

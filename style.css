@@ -17,7 +17,7 @@ a {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.infoImage {
+.infoimage {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -59,7 +59,9 @@ main {
 
 footer {
   padding: 1px;
+
   width: 100%;
+  height: 100%;
   background-color: #cacaf6;
 }
 
@@ -75,8 +77,14 @@ td {
   border: 1px solid black;
 }
 
+td {
+    width: 150px;
+    text-align: center;
+}
+
 .bodyhr {
   width: 30%;
+  border: 1px solid rgb(175, 175, 175);
 }
 
 .inform {

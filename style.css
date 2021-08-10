@@ -32,19 +32,7 @@ body {
   overflow-x: hidden;
 }
 
-header {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  padding: 5px;
-  background: rgba(202, 202, 247, 0.5);
-  color: #fff;
-}
 
-header h1 {
-  margin: 0;
-}
 
 footer {
   position: fixed;
@@ -83,6 +71,7 @@ td {
   border: 1px solid rgb(175, 175, 175);
 }
 
+@media (min-width:700px) {
 .inform {
   margin-left: auto;
   margin-right: auto;
@@ -92,6 +81,55 @@ td {
   color: black;
   bottom: 40px;
 }
+.sidebar {
+  margin-top: 50px;
+  margin-left: 0;
+  width: 100px;
+  background-color: #FFF5D7;
+  position: fixed;
+  left:0;
+  height: 100%;
+  overflow: auto;
+  text-align: center;
+}
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 5px;
+  background: rgba(202, 202, 247, 0.5);
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+}
+}
+
+@media (max-width:699px) {
+  .inform {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 15px;
+    background-color: #e5e4fb;
+    color: black;
+    bottom: 40px;
+  }
+  .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    background-color: #FFF5D7;
+    text-align: center;
+  }
+  header {
+    display: none;
+  }
+}
+
+
 
 .infoimage {
   display: block;
@@ -115,3 +153,5 @@ td {
   flex-direction: row;
   align-items: center;
 }
+
+

@@ -12,25 +12,13 @@ h1 {
   color: rgb(92, 92, 92);
 }
 
+h3 {
+  text-align: center;
+}
+
 p,
 a {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
-.infoimage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 45%;
-  height: 70px;
-  padding-top: 1%;
-  padding-bottom: 1%;
-}
-
-.image {
-  margin: 0 25px 7px 0;
-  width: 100px;
-  height: 100px;
 }
 
 body {
@@ -48,13 +36,9 @@ header {
   background: rgba(202, 202, 247, 0.5);;
   color: #fff;
 }
+
 header h1 {
   margin: 0;
-}
-
-main {
-  min-height: 1000px;
-  display: block;
 }
 
 footer {
@@ -98,6 +82,19 @@ td {
   bottom: 40px;
 }
 
-h3 {
-  text-align: center;
+.infoimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  height: 70px;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
+
+.image {
+  margin: 0 25px 7px 0;
+  width: 100px;
+  height: 100px;
+}
+

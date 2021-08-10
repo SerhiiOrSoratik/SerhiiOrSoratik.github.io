@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 h1,
 h2,
 h3,
@@ -33,7 +38,7 @@ header {
   right: 0;
   top: 0;
   padding: 5px;
-  background: rgba(202, 202, 247, 0.5);;
+  background: rgba(202, 202, 247, 0.5);
   color: #fff;
 }
 
@@ -42,12 +47,18 @@ header h1 {
 }
 
 footer {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 100%;
   background-color: #cacaf6;
+  text-align:center;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
 }
 
 table {
@@ -63,8 +74,8 @@ td {
 }
 
 td {
-    width: 150px;
-    text-align: center;
+  width: 150px;
+  text-align: center;
 }
 
 .bodyhr {
@@ -98,3 +109,9 @@ td {
   height: 100px;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}

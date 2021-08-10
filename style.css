@@ -8,7 +8,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+a {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -92,6 +93,7 @@ td {
   overflow: auto;
   text-align: center;
 }
+
 header {
   position: fixed;
   left: 0;
@@ -127,6 +129,25 @@ header h1 {
   header {
     display: none;
   }
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Активная/текущая ссылка */
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Ссылки при наведении мыши */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
 }
 
 
